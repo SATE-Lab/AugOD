@@ -16,6 +16,7 @@ Then the frontend starts on port 9528, and the frontend code is fixed to make an
 
 2. Start the backend:
 ````sh
+cd server
 python manage.py
 ````
 Then backend starts listening on port 8000 by default.

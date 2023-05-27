@@ -7,8 +7,18 @@ Video demonstration can be found at https://youtu.be/Rz4qp7vih_8.
 
 ## Deployment
 ### Here's how to deploy AugOD locally.
-1. The frontend starts the 'npm run dev' model on port 9528, and the frontend code is fixed to make an http request to the backend on port 8000;
-2. Backend starts' python manage.py 'listening on port 8000 by default.
+1. Start the frontend:
+````sh
+cd webapp
+npm run dev
+````
+Then the frontend starts on port 9528, and the frontend code is fixed to make an http request to the backend on port 8000;
+
+2. Start the backend:
+````sh
+python manage.py
+````
+Then backend starts listening on port 8000 by default.
 
 
 ## Technology stack
@@ -20,4 +30,4 @@ Video demonstration can be found at https://youtu.be/Rz4qp7vih_8.
 
 
 ## Architecture
-- Separate front end and back end. The front end calls the back end interface through http requests.
+- Separate frontend and backend. The front end calls the back end interface through http requests.
